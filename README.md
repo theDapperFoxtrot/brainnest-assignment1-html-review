@@ -46,22 +46,26 @@ In order to give emphasis to text content, utilize the following tags: `<em>Emph
 
 15. What relationship does an element have with any nested elements within it? 
 The nested element is considered the child of the parent element. For example:
+
 `<div class=”parent”>`
 	`<p>Child.</p>`
 `</div>`
 
 16. What relationship do two elements have if they are at the same level of nesting? 
 If two or more elements are connected at the same level of nesting, then they are considered to be siblings. For example:
+
 `<div>`
 	`<p>Sibling.</p>`
 	`<p>Sibling.</p>`
 `</div>`
 
 17. How do you create HTML comments? 
-An HTML comment is contained between the following symbols: `<!-- HTML comment here -->`
+An HTML comment is contained between the following symbols:
+`<!-- HTML comment here -->`
 
 18. What HTML tag is used to create an unordered list? 
 To create an unordered list, you not only need to have opening and closing tags for the list, but also the list items. Here’s an example:
+
 `<ul>`
 	`<li>Apples</li>`
 	`<li>Bananas</li>`
@@ -76,7 +80,9 @@ Similarly, to create an ordered list, you not only need to have opening and clos
 `</ol>`
 
 20. What HTML tag is used to create list items within both unordered and ordered lists? 
-As illustrated in the previous answers: `<li></li>`
+As illustrated in the previous answers: 
+
+`<li></li>`
 
 21. What element is used to create a link? 
 The anchor element enables a clickable link that requires a href=”” attribute to direct the user.
