@@ -46,9 +46,9 @@ In order to give emphasis to text content, utilize the following tags: `<em>Emph
 
 15. What relationship does an element have with any nested elements within it? 
 The nested element is considered the child of the parent element. For example:
-`<div class=”parent”>
+```<div class=”parent”>
 	<p>Child.</p>
-</div>`
+</div>```
 
 16. What relationship do two elements have if they are at the same level of nesting? 
 If two or more elements are connected at the same level of nesting, then they are considered to be siblings. For example:
