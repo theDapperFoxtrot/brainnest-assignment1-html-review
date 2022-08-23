@@ -142,17 +142,21 @@ To move up one directory to the parent, simply use two dots. For example:
 ### CSS Terminology
 
 1. What are the main differences between external, internal, and inline CSS?
+	
 It's most often preferred by convention to use an external style sheet for CSS, as it takes all the code for styling into a separate file that allows for a cleaner look in the main HTML document. However, you have two options to include styling: internal or inline. Internal is when you apply styling rules between style tags in the head element, while inline is when you include styling rules as an attribute on elements in the body. Both can add unnecessary bloat to the HTML file, and are typically used for testing purposes, but are generally the less preferred methods for styling.
 	
 2. What is the syntax for class and ID selectors?
+	
 In HTML, when you want to set a class or id, you add the respective attribute to the element i.e. `class=”name” or id=”name”` and to apply rules to them, you would add code to your CSS like so
 	
 For classes: `.name {color: blue}`
 	
 For id’s: `#name {color:green}`
 
-	
 3. How would you apply a single rule to two different selectors?
+If I understand the question correctly, you could make your HTML structure such that there is a parent element with the two target elements nested within it. That way when you apply the rule to the parent, both child elements will inherit the single rule.
+
+
 4. Given an element that has an id of title and a class of primary, how would you use both
 attributes for a single rule?
 5. What does the descendant combinator do?
