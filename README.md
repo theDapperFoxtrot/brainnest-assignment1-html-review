@@ -154,13 +154,15 @@ For classes: `.name {color: blue}`
 For id’s: `#name {color:green}`
 
 3. How would you apply a single rule to two different selectors?
+	
 You can simply comma separate the selectors so that one rule can apply to multiple elements.
 	
 4. Given an element that has an id of title and a class of primary, how would you use both attributes for a single rule?
+
 As stated above, you can comma separate these selectors. Based on this example it would be like this:
 ```
 #title, .primary {
-color: blue;
+	color: blue;
 }
 ```
 
