@@ -188,37 +188,80 @@ The box-sizing property allows you to affect whether or not the total width and 
 	
 The standard box model is used be default in browsers. It is inclusive of margin when making calculations for space, despite it not being visible. The alternative box model (by enabling `box-sizing: border-box`) will be exclusive of the padding and border, meaning only the element dimensions itself will occupy space.
 
-
 10. Would you use margin or padding to create more space between 2 elements?
+	
+I would use margin to create space between elements.
 
-11. Would you use margin or padding to create more space between the contents of an
-element and its border?
+11. Would you use margin or padding to create more space between the contents of an element and its border?
+
+In this case, you would use padding to add space between the element and the border. 
 
 12. Would you use margin or padding if you wanted two elements to overlap each other?
 
+If I wanted elements to overlap each other, I could apply negative margins.
+
 13. What is the difference between a block element and an inline element?
 
+A block element will take up the entire width of the page (besides margins applied). Whereas an inline element is the width of the content it contains (plus any padding/border/margin depending on settings).
+
 14. What is the difference between an inline element and an inline-block element?
+You cannot set a width or height to inline elements, and inline elements do not break onto a new line. Whereas if you apply the inline-block setting, it will break onto a new line, and you have the ability to apply width and height to the element.
 
 15. Is an h1 block or inline?
 
+Headers are block elements (including the h1).
+
 16. Is button block or inline?
+
+A button is an inline element.
 
 17. Is div block or inline?
 
+A div is a block element.
+
 18. Is span block or inline?
+
+A span is an inline element.
 
 19. What’s the difference between a flex container and a flex item?
 
+A flex container is when you use a parent element around nested elements to apply `display: flex` and related properties.
+
 20. How do you create a flex item?
+
+Any nested element within a flex container would be considered a flex item.
 
 21. What are the 3 values defined in the shorthand flex property?
 
+`flex: flex-grow | flex-shrink | flex-basis`
+
+
 22. How do you make flex items arrange themselves vertically instead of horizontally?
+
+You can apply the `flex-direction: column` property.
 
 23. What is the difference between justify-content and align-items?
 
+When `display: flex` is active, it defaults to `flex-direction: row` in which case the `justify-content` property will affect the horizontal axis, while `align-items` will affect the vertical axis in how flex items are arranged within the container.
+
 24. How do you use flexbox to completely center a div inside a flex container?
+
+#### HTML
+```
+<div class=”container”>
+	<div>Center me!</div>
+</div>
+```
+#### CSS
+```
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+```
 
 25. What’s the difference between justify-content: space-between and justify-content:
 space-around?
+
+In the context of when `flex-direction: row` is set, when applying `justify-content: space-between` you are creating even space between all the elements for the width of the given container. With `justify-content: space-around` you are placing all the flex items with even space between while all the outer remaining space is halved.
