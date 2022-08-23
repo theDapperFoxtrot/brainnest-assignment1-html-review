@@ -154,10 +154,16 @@ For classes: `.name {color: blue}`
 For id’s: `#name {color:green}`
 
 3. How would you apply a single rule to two different selectors?
-If I understand the question correctly, you could make your HTML structure such that there is a parent element with the two target elements nested within it. That way when you apply the rule to the parent, both child elements will inherit the single rule.
+You can simply comma separate the selectors so that one rule can apply to multiple elements.
+	
+4. Given an element that has an id of title and a class of primary, how would you use both attributes for a single rule?
+As stated above, you can comma separate these selectors. Based on this example it would be like this:
+```
+#title, .primary {
+color: blue;
+}
+```
 
-
-4. Given an element that has an id of title and a class of primary, how would you use both
 attributes for a single rule?
 5. What does the descendant combinator do?
 6. Between a rule that uses one class selector and a rule that uses three type selectors,
