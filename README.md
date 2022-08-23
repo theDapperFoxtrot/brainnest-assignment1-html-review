@@ -177,10 +177,17 @@ This refers to the idea of combining selectors in a descending order, beginning 
 The class name has higher specificity. The way in which CSS is evaluated, the way it is parsed will first check for the kind of selector used, and then the number of each respective selector type, but when there is the same number of a selector type, and a more specific one is used, it will always follow the rule of specificity. i.e. one class selector and one id selector with the same properties (but different colours for example), the rules of the id selector would apply.
 	
 7. From inside to outside, what is the order of box-model properties?
-
+	
+The box model comprises of a margin, border, padding, and the element itself.
+	
 8. What does the box-sizing CSS property do?
-
+	
+The box-sizing property allows you to affect whether or not the total width and height of an element is inclusive or exclusive of border and padding.
+	
 9. What is the difference between the standard and alternative box model?
+	
+The standard box model is used be default in browsers. It is inclusive of margin when making calculations for space, despite it not being visible. The alternative box model (by enabling `box-sizing: border-box`) will be exclusive of the padding and border, meaning only the element dimensions itself will occupy space.
+
 
 10. Would you use margin or padding to create more space between 2 elements?
 
