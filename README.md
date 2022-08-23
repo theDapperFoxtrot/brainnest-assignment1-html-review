@@ -116,7 +116,9 @@ It's most often preferred by convention to use an external style sheet for CSS, 
 	
 2. What is the syntax for class and ID selectors?
 In HTML, when you want to set a class or id, you add the respective attribute to the element i.e. `class=”name” or id=”name”` and to apply rules to them, you would add code to your CSS like so
+	
 For classes: `.name {color: blue}`
+	
 For id’s: `#name {color:green}`
 
 	
