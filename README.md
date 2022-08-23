@@ -167,9 +167,14 @@ As stated above, you can comma separate these selectors. Based on this example i
 ```
 
 attributes for a single rule?
+	
 5. What does the descendant combinator do?
 	
+This refers to the idea of combining selectors in a descending order, beginning with the outermost parent in the HTML structure (using the type, class, etc selector) and then applying nested selectors in a chain to provide further specificity.
+	
 6. Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
+	
+The class name has higher specificity. The way in which CSS is evaluated, the way it is parsed will first check for the kind of selector used, and then the number of each respective selector type, but when there is the same number of a selector type, and a more specific one is used, it will always follow the rule of specificity. i.e. one class selector and one id selector with the same properties (but different colours for example), the rules of the id selector would apply.
 	
 7. From inside to outside, what is the order of box-model properties?
 
