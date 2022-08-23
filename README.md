@@ -30,53 +30,73 @@ The head element contains meta data in order to inform the browser of informatio
 The body element contains content that can be rendered to the page, and the structure in which it is organized in the document object model. There are a number of semantic elements that can be used to create the initial layout of a web page before any styling or programming logic is added.
 
 10. How do you create a paragraph in HTML? 
-To create a paragraph in html, you utilize the opening and closing paragraph tags. `<p>Content here.</p>`
+To create a paragraph in html, you utilize the opening and closing paragraph tags. 
+
+`<p>Content here.</p>`
 
 11. How do you create a heading in HTML? 
-The main heading of a webpage can be created by using the main heading tags. `<h1>Heading</h1>`
+The main heading of a webpage can be created by using the main heading tags. 
+
+`<h1>Heading</h1>`
 	
 12. How many different levels of headings are there and what is the difference between them? 
 Namely the available tags are `<h1> through <h6>`. It is important that an `<h1>` only be used once per page to promote SEO. Otherwise, other heading tags can be reused and individually affected with styling by adding unique classes.
 
 13. What element should you use to make text bold and important? 
-In order to give importance to text content, utilize the following tags: `<strong>Important text</strong>.`
+In order to give importance to text content, utilize the following tags: 
+
+`<strong>Important text</strong>.`
 
 14. What element should you use to make text italicized to add emphasis to it? 
-In order to give emphasis to text content, utilize the following tags: `<em>Emphasized text</em>.`
+In order to give emphasis to text content, utilize the following tags: 
+
+`<em>Emphasized text</em>.`
 
 15. What relationship does an element have with any nested elements within it? 
 The nested element is considered the child of the parent element. For example:
 
 `<div class=”parent”>`
+
 	`<p>Child.</p>`
+	
 `</div>`
 
 16. What relationship do two elements have if they are at the same level of nesting? 
 If two or more elements are connected at the same level of nesting, then they are considered to be siblings. For example:
 
 `<div>`
+
 	`<p>Sibling.</p>`
+	
 	`<p>Sibling.</p>`
+	
 `</div>`
 
 17. How do you create HTML comments? 
 An HTML comment is contained between the following symbols:
+
 `<!-- HTML comment here -->`
 
 18. What HTML tag is used to create an unordered list? 
 To create an unordered list, you not only need to have opening and closing tags for the list, but also the list items. Here’s an example:
 
 `<ul>`
+
 	`<li>Apples</li>`
+	
 	`<li>Bananas</li>`
+	
 `</ul>`
 
 19. What HTML tag is used to create an ordered list? 
 Similarly, to create an ordered list, you not only need to have opening and closing tags for the list, but also the list items. Here’s an example:
 
 `<ol>`
+
 	`<li>Apples</li>`
+	
 	`<li>Bananas</li>`
+	
 `</ol>`
 
 20. What HTML tag is used to create list items within both unordered and ordered lists? 
@@ -104,6 +124,7 @@ Every image needs to have the src=”” and the alt=””
 
 27. How do you access a parent directory in a file path? 
 To move up one directory to the parent, simply use two dots. For example:
+	
 `<a href=”../index.html”>Home</a>`
 
 28. What are the four main image formats that you can use for images on the web?
