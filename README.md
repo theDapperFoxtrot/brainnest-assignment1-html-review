@@ -1,7 +1,7 @@
-### brainnest-assignment-html/css/javascript-review
+# brainnest-assignment-html/css/javascript-review
 
 ## Brainnest FD Training – Assignment 1
-# HTML Terminology
+### HTML Terminology
 1. What do HTML and CSS stand for? 
 HyperText Markup Language and Cascading Styling Sheets
 
@@ -109,7 +109,7 @@ To move up one directory to the parent, simply use two dots. For example:
 28. What are the four main image formats that you can use for images on the web?
 .jpg, .png, .gif, .tif /.tiff
 
-# CSS Terminology
+### CSS Terminology
 
 1. What are the main differences between external, internal, and inline CSS?
 2. What is the syntax for class and ID selectors?
