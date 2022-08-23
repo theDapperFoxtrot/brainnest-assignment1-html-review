@@ -66,7 +66,8 @@ The nested element is considered the child of the parent element. For example:
 16. What relationship do two elements have if they are at the same level of nesting? 
 If two or more elements are connected at the same level of nesting, then they are considered to be siblings. For example:
 
-```<div>
+```
+<div>
 
 	<p>Sibling.</p>
 	
@@ -83,7 +84,8 @@ An HTML comment is contained between the following symbols:
 18. What HTML tag is used to create an unordered list? 
 To create an unordered list, you not only need to have opening and closing tags for the list, but also the list items. Here’s an example:
 
-```<ul>
+```
+<ul>
 
 	<li>Apples</li>
 	
